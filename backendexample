@@ -1,0 +1,22 @@
+The server. This is the computer that receives requests.
+
+The app. This is the application running on the server that listens for requests, retrieves information from the database, and sends a response.
+
+The database. Databases are used to organize and persist data.
+
+An API is a collection of clearly defined methods of communication between different software components.
+
+GET describes the kind of request (the client is just asking for data.
+The URI (uniform resource identifier) /products/66432 specifies that the client is looking for more information about a product, and that product, has an id of 66432.
+
+Event listeners that match this request (the HTTP verb: GET, and the URI: /products/66432) are triggered. The code that runs on the server between the request and the response is called middleware.
+
+
+Examples of backend processes include:
+processing an incoming webpage request
+running a script (PHP, ASP, JSP, etc.) to generate HTML
+accessing data, such as an article, from a database using an SQL queries
+storing or updating records in a database
+encrypting and decrypting data
+handling file uploads and downloads
+processing user input via JavaScript
