@@ -11,7 +11,25 @@
   --color-base-text: rgb(18, 18, 18);
   --color-btn-bg: rgb(220, 220, 220);
 }
+/* EXAMPLE OF DETECTING OS PREFERENCE */
+:root {
+  --border-btn: 1px solid rgb(36, 36, 36);
+  --color-base-bg: rgb(240, 240, 240);
+  --color-base-text: rgb(18, 18, 18);
+  --color-btn-bg: rgb(220, 220, 220);
+  --theme-name: "light";
+}
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border-btn: 1px solid rgb(220, 220, 220);
+    --color-base-bg: rgb(18, 18, 18);
+    --color-base-text: rgb(240, 240, 240);
+    --color-btn-bg: rgb(36, 36, 36);
+    --theme-name: "dark";
+  }
+}
+/* EXAMPLE OF DETECTING OS PREFERENCE */
 body,
 .theme-toggle {
   color: var(--color-base-text);
