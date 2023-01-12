@@ -1,0 +1,3 @@
+https://devpractical.com/display-html-tags-as-plain-text/
+escape characters "<" and ">" in plaintext with:
+&lt;  or &60;  and &gt; or &62;
