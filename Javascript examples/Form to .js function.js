@@ -14,3 +14,5 @@ function submitForm(form) { //form is just the accepted argument sent from the f
   <input name="searchTerm"/>
   <button>Submit</button>
 </form>
+
+///  https://stackoverflow.com/questions/37487826/send-form-data-to-javascript-on-submit
