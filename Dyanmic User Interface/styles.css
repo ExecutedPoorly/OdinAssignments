@@ -1,0 +1,75 @@
+body {
+  display:flex;
+  color:black;
+  background-color: beige;
+  height: 100vh;
+  flex-direction: column;
+}
+.drop-down-menus{
+  flex:1;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+.menubar {
+  display:flex;
+  gap: 10px;
+  
+}
+
+.menubar button {
+  height: 30px; 
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+
+.menucontent {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.mobile-menus{
+  flex:1;
+  background-color: aqua;
+}
+
+.image-slider{
+  flex:1;
+  background-color: aquamarine;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.image-slider > * {
+
+  background-color: rgb(167, 150, 150);
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.btnDiv {
+  width: auto;
+  display:flex;
+  justify-content: space-around;
+}
+
+.Left, .Right {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding:3px;
+}
+
+.containerImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  /*  */
+}
