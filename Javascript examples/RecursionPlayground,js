@@ -12,3 +12,16 @@ for (let i= 0; i <= 10; i++){
   daaVar += i;
 }
 console.log(daaVar, "eee");
+
+
+function power(base, exponent) {
+  if (exponent != 1) {
+    exponent --; //decriment by 1 here.
+    return base* power(base, exponent); //multiply base by next function return, etc.
+  }
+  else {
+    return base;
+  }
+}
+
+console.log(power(5,17));
