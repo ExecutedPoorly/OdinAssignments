@@ -1,0 +1,14 @@
+function sumRange(num) {
+  if (num != 1) {
+
+    return num += sumRange(--num);
+  }
+  else return num;
+}
+
+console.log(sumRange(10))
+let daaVar = 0;
+for (let i= 0; i <= 10; i++){
+  daaVar += i;
+}
+console.log(daaVar, "eee");
