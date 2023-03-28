@@ -44,3 +44,26 @@ function fibs(fibNum) {
 
 console.log(fibs(8));
 ///////////////////////
+
+///////////////////////////Scuffed fibonacci recursion:
+array3 = [0,1]
+let i = 0;
+function recursionFib(FibNum) {
+  if (FibNum == 0) {
+    return 0;
+  }
+  if (i < FibNum-1) { 
+    let newNum = array3[i] + array3[i+1];
+    array3.push(newNum);
+    i++;
+    recursionFib(FibNum);
+  }
+  else if (i >= FibNum-1) {
+    let garbage = array3.shift();
+  }
+  return array3;//
+
+}
+
+console.log(recursionFib(1), "result");
+/////////////////////
